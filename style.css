@@ -1,0 +1,104 @@
+body {
+font-family: Goblin One; 
+    background-color: #0D3C66; 
+    color: #ffffff; 
+    background-image: url(fondo/fondoazul.png);
+    background-size: cover;
+
+}
+
+
+.header {
+ background-color: #0D3C66;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo-container img {
+    height: 116px;
+    width: 116px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 50px;
+}
+
+.search-bar {
+  margin-top: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.search-bar input {
+  width: 250px;
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: none;
+}
+
+.search-bar button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: #2971cf;
+  color: #ffffff;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin: 30px;
+  padding: 10px;
+}
+
+.item {
+  background-color: #122f53;
+  border-radius: 10px;
+  width: 200px;
+  transition: transform 0.3s ease;
+}
+
+.item:hover {
+  transform: scale(1.05);
+}
+
+.item img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.item p {
+  padding: 10px;
+  font-size: 10px;
+}
+
+.dark-mode {
+  background-color: #0a0a0a;
+  color: #ffffff;
+  background-image: url(fondo/fondo\ dark.png);
+  background-size: cover;
+}
+
+.dark-mode .header {
+  background-color: #201c1c;
+}
+
+.dark-mode .item {
+  background-color: #1e1e1e;
+}
+
+.dark-mode .search-bar button {
+  background-color: #3D3D3D
+}
+
+.dark-mode .search-bar button:hover {
+  background-color: #666;
+}
